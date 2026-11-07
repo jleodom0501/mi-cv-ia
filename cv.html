@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum - Javier Leonart</title>
+
+    <!-- He descubierto box-shadow: sirve para añadir sombras a los elementos. -->
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 30px 15px;
+            background-color: #e8dfd2;
+            color: #29251f;
+            font-family: Georgia, serif;
+        }
+
+        .contenedor {
+            max-width: 900px;
+            margin: auto;
+            background-color: #fffdf8;
+            border: 1px solid #c5a880;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+
+        header {
+            background-color: #29251f;
+            color: #f5e9d5;
+            text-align: center;
+            padding: 45px 20px;
+        }
+
+        header h1 {
+            font-size: 40px;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+        }
+
+        header p {
+            letter-spacing: 3px;
+            font-style: italic;
+        }
+
+        header img {
+            width: 190px;
+            height: 240px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 3px solid #c5a880;
+            margin: 15px auto;
+            display: block;
+        }
+
+        .contenido {
+            padding: 30px;
+        }
+
+        .seccion {
+            padding: 20px;
+            margin: 22px 0;
+            border-left: 3px solid #c5a880;
+            background-color: #f8f4ed;
+        }
+
+        h2 {
+            color: #9b794c;
+            font-size: 22px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            border-bottom: 1px solid #c5a880;
+            padding-bottom: 10px;
+        }
+
+        p, li {
+            line-height: 1.8;
+        }
+
+        footer {
+            background-color: #29251f;
+            color: #f5e9d5;
+            text-align: center;
+            padding: 20px;
+            letter-spacing: 2px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 28px;
+            }
+
+            .contenido {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="contenedor">
+
+    <header>
+        <h1>Javier Leonart</h1>
+
+        <img src="curriculum.jpeg" alt="Fotografía de Javier Leonart">
+
+        <p>ESTUDIANTE · ESTILO</p>
+    </header>
+
+    <main class="contenido">
+
+        <section class="seccion">
+            <h2>Sobre mí</h2>
+            <p>
+                Soy un estudiante de 4.º de ESO, responsable y creativo.
+                Me gusta aprender cosas nuevas, descubrir tendencias
+                y desarrollar mis propios gustos e intereses.
+            </p>
+        </section>
+
+        <section class="seccion">
+            <h2>Mis habilidades</h2>
+            <ul>
+                <li>Soy responsable.</li>
+                <li>Soy creativo.</li>
+                <li>Tengo conocimientos sobre moda.</li>
+                <li>Me gusta leer novelas románticas.</li>
+            </ul>
+        </section>
+
+        <section class="seccion">
+            <h2>Formación académica</h2>
+            <p>
+                Actualmente curso 4.º de Educación Secundaria Obligatoria.
+            </p>
+        </section>
+
+        <section class="seccion">
+            <h2>Mis intereses</h2>
+            <p>
+                Me interesan la moda, las nuevas tendencias,
+                la literatura romántica y la creatividad.
+            </p>
+        </section>
+
+        <section class="seccion">
+            <h2>Mi objetivo</h2>
+            <p>
+                Seguir aprendiendo, desarrollar mis habilidades
+                y descubrir nuevas oportunidades para mi futuro.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        JAVIER LEONART · CURRÍCULUM PERSONAL
+    </footer>
+
+</div>
+
+</body>
+</html>
